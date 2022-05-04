@@ -1,0 +1,11 @@
+*.iml
+# 忽略所有.开头的隐藏文件:
+.*
+# 忽略所有.class文件:
+*.class
+
+# 会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
+doc/*.txt
+
+# ignore all .txt files in the doc/ directory
+./**/*.txt
